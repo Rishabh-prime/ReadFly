@@ -6,7 +6,7 @@ export function LogoutBtn(props) {
     
 const dispatch = useDispatch();
 const logoutHandler = () =>{
-    authService.logout()
+    authService.logout()// is a promise 
     .then(()=>{
 
             dispatch(logout());

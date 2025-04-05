@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function Container(props) {
+export function Container({children}) {
     
 
     return (
